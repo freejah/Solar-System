@@ -6,6 +6,14 @@ import { data } from "../data/data";
 
 export function getPlanetNames(data) {
   // Your code goes here...
+
+  const planets = data.planets;
+  const allPlanets = [];
+
+  for (let i = 0; i < planets.length; i++) {
+    allPlanets.push(planets[i].name);    
+  }
+  return allPlanets;
 }
 
 
