@@ -6,6 +6,8 @@ import { data } from "../data/data";
 
 export function getAsteroidsDiscoveredAfterYear(data, year) {
   // Your code goes here...
+
+  var we ='ll see';
 }
 
 
