@@ -9,8 +9,6 @@ export function getPlanetsWithLowGravity(data) {
   const planets = data.planets;
   const gravity = planets.filter(planets => planets.gravity < 10);
   return gravity.map(planets => planets.name);
-
-  
 }
 
 
